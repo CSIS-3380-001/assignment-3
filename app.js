@@ -72,7 +72,7 @@ let planets = [
 const Planet = (planet) => {
   return (
     <div className="card">
-      <button onClick={() => handleDelete(planet.id)}>X</button>
+      <button alt="delete" className="delete" onClick={() => handleDelete(planet.id)}>x</button>
       <div>
         <img src={planet.url} alt={planet.name}></img>
       </div>

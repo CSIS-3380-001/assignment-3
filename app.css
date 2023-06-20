@@ -61,3 +61,24 @@ p {
 img {
   width: 150px;
 }
+
+.card:hover .delete {
+  visibility: visible;
+}
+
+.delete {
+  float: right;
+  border: none;
+  width: 30px;
+  height: 30px;
+  visibility: hidden;
+  cursor: pointer;
+  color: black;
+  background-color: #c0c0c0;
+  transition: visibility 0.2s smooth;
+}
+
+.delete:hover {
+  background-color: #ff0000;
+  color: white;
+}
